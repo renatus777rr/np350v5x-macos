@@ -19,3 +19,26 @@ Hardware report in the source of repo. BUT! this is my hardware report, somethin
 Then open config.plist in proper tree and press CMD + SHIFT + R on macOS, Control + Shift + R on windows. And then select EFI/OC folder. and then ok.
 Save it. And you have the efi for you. But if you fail to boot, change the smbios. And yeah use Hackintosh-For-All-Computers macOS image. Thanks them for images.
 Troubleshooting idk, create an issue. + i dont see this as tutorial.
+Heres also compatibility from my laptop NP350V5X.
+1. CPU:
+   - Intel(R) Core(TM) i5-3210M: Up to macOS Tahoe 26 (Beta)
+2. GPU:
+   - Intel(R) HD Graphics 4000: macOS High Sierra 10.13 to macOS Big Sur 11
+      - OCLP Compatibility: macOS Monterey 12 to macOS Sequoia 15
+      - Connected Monitor: AUO21EC (Internal)
+   - AMD Radeon HD 7600M Series: Unsupported (SADLY very. macOS doesn't support these gpus, or we could get second gpu.)
+3. Sound:
+   - High Definition Audio Device: Up to macOS Tahoe 26 (Beta)
+      - Audio Endpoints: Microphone, Speakers, Microphone
+   - High Definition Audio Device_#1: Up to macOS Tahoe 26 (Beta)
+4. Network:
+   - Realtek PCIe GbE Family Controller: Up to macOS Tahoe 26 (Beta)
+   - Qualcomm Atheros AR9485WB-EG Wireless Network Adapter: macOS High Sierra 10.13 to macOS Big Sur 11
+      - Continuity Support: Limited (No Continuity features available)
+      Note: Atheros cards are not recommended for macOS (this said opcore-simpilify, yeah i used compitablitiy checker thingy)
+5. Storage Controllers:
+   - 7 Series Chipset Family 6-port SATA Controller [AHCI mode]: Up to macOS Tahoe 26 (Beta)
+6. Bluetooth:
+   - Qualcomm Atheros AR3012 Bluetooth 4.0: macOS High Sierra 10.13 to macOS Big Sur 11
+7. SD Controller:
+   - USB2.0-CRW: macOS High Sierra 10.13 to macOS Sonoma 14
