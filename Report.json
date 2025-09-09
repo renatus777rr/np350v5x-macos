@@ -1,0 +1,353 @@
+{
+    "Motherboard": {
+        "Name": "SAMSUNG 350V5C/350V5X/350V4C/350V4X/351V5C/351V5X/351V4C/351V4X/3540VC/3",
+        "Chipset": "HM76",
+        "Platform": "Laptop"
+    },
+    "BIOS": {
+        "Version": "P04AAL",
+        "Release Date": "2012-06-30",
+        "System Type": "x64-based",
+        "Firmware Type": "Legacy"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i5-3210M",
+        "Codename": "Ivy Bridge",
+        "Core Count": "02",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX"
+    },
+    "GPU": {
+        "Intel(R) HD Graphics 4000": {
+            "Manufacturer": "Intel",
+            "Codename": "Ivy Bridge",
+            "Device ID": "8086-0166",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.GFX0",
+            "Resizable BAR": "Disabled"
+        },
+        "AMD Radeon HD 7600M Series": {
+            "Manufacturer": "AMD",
+            "Codename": "Unknown",
+            "Device ID": "1002-6840",
+            "Device Type": "Unknown",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.PEG0.PEGP",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "AUO21EC": {
+            "Connector Type": "Internal",
+            "Resolution": "1366x768",
+            "Connected GPU": "Intel(R) HD Graphics 4000"
+        }
+    },
+    "Network": {
+        "Realtek PCIe GbE Family Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-8168",
+            "Subsystem ID": "C0DA144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP01.PXSX"
+        },
+        "Qualcomm Atheros AR9485WB-EG Wireless Network Adapter": {
+            "Bus Type": "PCI",
+            "Device ID": "168C-0032",
+            "Subsystem ID": "4105144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x1)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP02.PXSX"
+        }
+    },
+    "Sound": {
+        "High Definition Audio Device": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0269",
+            "Subsystem ID": "144DC0D8",
+            "Audio Endpoints": [
+                "Microphone",
+                "Speakers",
+                "Microphone"
+            ],
+            "Controller Device ID": "8086-1E20"
+        },
+        "High Definition Audio Device_#1": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "8086-2806",
+            "Subsystem ID": "144DC0D8",
+            "Controller Device ID": "8086-1E20"
+        }
+    },
+    "USB Controllers": {
+        "Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E31",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x14,0x0)",
+            "ACPI Path": "\\_SB.PCI0.XHC_"
+        },
+        "Intel(R) 7 Series/C216 Chipset Family USB Enhanced Host Controller - 1E2D": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E2D",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1a,0x0)",
+            "ACPI Path": "\\_SB.PCI0.EHC2"
+        },
+        "Intel(R) 7 Series/C216 Chipset Family USB Enhanced Host Controller - 1E26": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E26",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1d,0x0)",
+            "ACPI Path": "\\_SB.PCI0.EHC1"
+        }
+    },
+    "Input": {
+        "Standard PS/2 Keyboard": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0303",
+            "Device Type": "PS/2"
+        },
+        "Microsoft PS/2 Mouse": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0F03",
+            "Device Type": "PS/2"
+        }
+    },
+    "Storage Controllers": {
+        "7 Series Chipset Family 6-port SATA Controller [AHCI mode]": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E03",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x2)",
+            "ACPI Path": "\\_SB.PCI0.SAT0",
+            "Disk Drives": [
+                "KINGSTON SA400S37240G"
+            ]
+        }
+    },
+    "Bluetooth": {
+        "Qualcomm Atheros AR3012 Bluetooth 4.0": {
+            "Bus Type": "USB",
+            "Device ID": "0CF3-3004"
+        }
+    },
+    "SD Controller": {
+        "USB2.0-CRW": {
+            "Bus Type": "USB",
+            "Device ID": "0BDA-0129"
+        }
+    },
+    "System Devices": {
+        "System board": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C01",
+            "ACPI Path": "\\_SB.PCI0.TPMX"
+        },
+        "System board_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C01",
+            "ACPI Path": "\\_SB.MEM2"
+        },
+        "Motherboard resources": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.PDRC"
+        },
+        "Motherboard resources_#1": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.LDRC"
+        },
+        "High Definition Audio Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E20",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1b,0x0)",
+            "ACPI Path": "\\_SB.PCI0.HDEF"
+        },
+        "Volume Manager": {
+            "Bus Type": "ROOT",
+            "Device": "VOLMGR"
+        },
+        "Microsoft Basic Display Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICDISPLAY"
+        },
+        "ACPI Thermal Zone": {
+            "Bus Type": "ACPI",
+            "Device": "THERMALZONE",
+            "ACPI Path": "\\_SB.TZ00"
+        },
+        "PCI-to-PCI Bridge": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E10",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP01"
+        },
+        "System CMOS/real time clock": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0B00",
+            "ACPI Path": "\\_SB.PCI0.LPCB.RTC_"
+        },
+        "Microsoft Hyper-V Virtualization Infrastructure Driver": {
+            "Bus Type": "ROOT",
+            "Device": "VID"
+        },
+        "High precision event timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0103",
+            "ACPI Path": "\\_SB.PCI0.LPCB.HPET"
+        },
+        "Composite Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "COMPOSITEBUS"
+        },
+        "Microsoft Virtual Drive Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "VDRVROOT"
+        },
+        "Programmable interrupt controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0000",
+            "ACPI Path": "\\_SB.PCI0.LPCB.IPIC"
+        },
+        "SM Bus Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E22",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x3)",
+            "ACPI Path": "\\_SB.PCI0.SBUS"
+        },
+        "Motherboard resources_#2": {
+            "Bus Type": "ACPI",
+            "Device": "INT3F0D",
+            "ACPI Path": "\\_SB.PCI0.LPCB.CWDT"
+        },
+        "ACPI Lid": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0D",
+            "ACPI Path": "\\_SB.LID0"
+        },
+        "Memory Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-0154",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x0,0x0)"
+        },
+        "Direct memory access controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0200",
+            "ACPI Path": "\\_SB.PCI0.LPCB.DMAC"
+        },
+        "UMBus Root Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "UMBUS"
+        },
+        "Charge Arbitration Driver": {
+            "Bus Type": "ROOT",
+            "Device": "CAD"
+        },
+        "PCI-to-PCI Bridge_#1": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-0151",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1,0x0)",
+            "ACPI Path": "\\_SB.PCI0.PEG0"
+        },
+        "PCI-to-PCI Bridge_#2": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E12",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x1)",
+            "ACPI Path": "\\_SB.PCI0.RP02"
+        },
+        "Pci Bus": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0A08",
+            "ACPI Path": "\\_SB.PCI0"
+        },
+        "ACPI Power Button": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C0C",
+            "ACPI Path": "\\_SB.PWRB"
+        },
+        "Microsoft ACPI-Compliant System": {
+            "Bus Type": "ACPI_HAL",
+            "Device": "PNP0C08"
+        },
+        "Microsoft Basic Render Driver": {
+            "Bus Type": "ROOT",
+            "Device": "BASICRENDER"
+        },
+        "Numeric data processor": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C04",
+            "ACPI Path": "\\_SB.PCI0.LPCB.COPR"
+        },
+        "ACPI Fixed Feature Button": {
+            "Bus Type": "ACPI",
+            "Device": "FIXEDBUTTON"
+        },
+        "Motherboard resources_#3": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C02",
+            "ACPI Path": "\\_SB.PCI0.LPCB.RMSC"
+        },
+        "VMware VMCI Host Device": {
+            "Bus Type": "ROOT",
+            "Device": "VMWVMCIHOSTDEV"
+        },
+        "Legacy device": {
+            "Bus Type": "ACPI",
+            "Device": "INT0800",
+            "ACPI Path": "\\_SB.PCI0.LPCB.FWHD"
+        },
+        "NDIS Virtual Network Adapter Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "NDISVIRTUALBUS"
+        },
+        "Microsoft ACPI-Compliant Embedded Controller": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0C09",
+            "ACPI Path": "\\_SB.PCI0.LPCB.EC0_"
+        },
+        "System timer": {
+            "Bus Type": "ACPI",
+            "Device": "PNP0100",
+            "ACPI Path": "\\_SB.PCI0.LPCB.TIMR"
+        },
+        "Microsoft System Management BIOS Driver": {
+            "Bus Type": "ROOT",
+            "Device": "MSSMBIOS"
+        },
+        "Motherboard resources_#4": {
+            "Bus Type": "ACPI",
+            "Device": "INT340E",
+            "ACPI Path": "\\_SB.PTID"
+        },
+        "LPC Controller": {
+            "Bus Type": "PCI",
+            "Device ID": "8086-1E59",
+            "Subsystem ID": "C0D8144D",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1f,0x0)",
+            "ACPI Path": "\\_SB.PCI0.LPCB"
+        },
+        "Plug and Play Software Device Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "IWD Bus Enumerator": {
+            "Bus Type": "ROOT",
+            "Device": "SYSTEM"
+        },
+        "Remote Desktop Device Redirector Bus": {
+            "Bus Type": "ROOT",
+            "Device": "RDPBUS"
+        }
+    }
+}
