@@ -13,7 +13,8 @@ AppleALC.kext- audio, for sound and microphone working layout id is 28.
 VirtualSMC.kext
 Lilu.kext
 -- removed intel mausi because who need it. its doesnt do anything.
-# UPDATE! bluetooth kext: Ath3kBT.kext, Ath3kBTInjector.kext (or not bluetooth idk) for card reader: RealtekCardReader.kext, RealtekCardReaderFriend.kext. for battery management and etc.. (most kexts that need for greatest work): SMCBatteryManager.kext, SMCSuperIO.kext, SMCLightSensor.kext,SMCProcessor.kext, BrightnessKeys.kext, ECEnabler.kext. FOR SO
+# UPDATE! bluetooth kext: Ath3kBT.kext, Ath3kBTInjector.kext (or not bluetooth idk) for card reader: RealtekCardReader.kext, RealtekCardReaderFriend.kext. for battery management and etc.. (most kexts that need for greatest work): SMCBatteryManager.kext, SMCSuperIO.kext, SMCLightSensor.kext,SMCProcessor.kext, BrightnessKeys.kext, ECEnabler.kext. I didnt used wifi, i used ethernet and also tip use ethernet for fast connection or internet. Use macOS Monterey-Tahoe (whoever uses tahoe???? its gonna lag as ibm pc) for beta or just "new" apps. and patch using oclp because i dont think its gonna be fast or best performance. use better big sur, catalina as it mentioned in dortania guide and for all likely components.
+Hardware report in the source of repo. named as Report.json. Use it for somewhere. Also new kexts that i added, was from open core simplify efi. yeah from prebuilt efi. sorry. just watched up for more kexts taht could be useful. i am not pro in building of hackintoshes.
 
 Then open config.plist in proper tree and press CMD + SHIFT + R on macOS, Control + Shift + R on windows. And then select EFI/OC folder. and then ok.
 Save it. And you have the efi for you. But if you fail to boot, change the smbios. And yeah use Hackintosh-For-All-Computers macOS image. Thanks them for images.
